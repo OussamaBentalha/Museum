@@ -2,6 +2,7 @@
  * Created by Sam on 07/09/2016.
  */
 module.exports = function(app){
+
     return function(req, res, next){
         var station = new app.models.Station({
             name: req.body.name,
@@ -15,8 +16,12 @@ module.exports = function(app){
         });
 
         station.save(function(err, instance){
-            if (err)
+            if (err){
+                Console.log("Station ADD - Error : " + err);
                 return res.status(500).send(err);
+            }
+
+
 
             res.send(instance);
         });
