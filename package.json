@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/OussamaBentalha/Museum/issues"
   },
-  "homepage": "https://github.com/OussamaBentalha/Museum#readme"
+  "homepage": "https://github.com/OussamaBentalha/Museum#readme",
+  "dependencies": {
+    "body-parser": "latest",
+    "connect-mongo": "latest",
+    "cookie-parser": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "fs-extra": "latest",
+    "glob": "latest",
+    "lodash": "latest",
+    "mongoose": "latest",
+    "mongoose-timestamp": "latest",
+    "yargs": "latest"
+  }
 }
