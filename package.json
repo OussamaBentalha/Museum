@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/OussamaBentalha/Museum#readme",
   "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.6",
     "body-parser": "latest",
     "connect-mongo": "latest",
     "cookie-parser": "latest",
