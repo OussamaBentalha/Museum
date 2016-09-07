@@ -47,9 +47,8 @@ module.exports = function(app){
             type: Number,
             required: false
         },
-        stations: [{
-            type: app.mongoose.Schema.Types.ObjectId,
-            ref: 'Station',
+        stationsId: [{
+            type: String,
             required: false
         }]
 

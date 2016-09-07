@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/server/models/Museum.js" line="50" mnemonic="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b4579be5-3963-4b76-8348-5edc5c93789d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/models/Museum.js" afterPath="$PROJECT_DIR$/server/models/Museum.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/actions/museums/add.js" afterPath="$PROJECT_DIR$/server/actions/museums/add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/actions/stations/add.js" afterPath="$PROJECT_DIR$/server/actions/stations/add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routes/index.js" afterPath="$PROJECT_DIR$/server/routes/index.js" />
     </list>
     <ignored path="Museum.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Museum.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Museum.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/models/Museum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.6689655">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -75,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/server/actions/museums/add.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -129,10 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stations.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stations.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/routes/stations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24827586">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
@@ -183,16 +185,16 @@
         <option value="$PROJECT_DIR$/server/actions/stations/index.js" />
         <option value="$PROJECT_DIR$/server/actions/stations/list.js" />
         <option value="$PROJECT_DIR$/server/actions/museums/show.js" />
-        <option value="$PROJECT_DIR$/server/models/Museum.js" />
         <option value="$PROJECT_DIR$/server/actions/museums/index.js" />
         <option value="$PROJECT_DIR$/server/actions/museums/stations/list.js" />
         <option value="$PROJECT_DIR$/server/actions/museums/stations/add.js" />
         <option value="$PROJECT_DIR$/server/actions/museums/stations/index.js" />
         <option value="$PROJECT_DIR$/server/routes/museums.js" />
-        <option value="$PROJECT_DIR$/server/actions/museums/add.js" />
         <option value="$PROJECT_DIR$/server/actions/stations/add.js" />
         <option value="$PROJECT_DIR$/server/routes/stations.js" />
         <option value="$PROJECT_DIR$/server/routes/index.js" />
+        <option value="$PROJECT_DIR$/server/actions/museums/add.js" />
+        <option value="$PROJECT_DIR$/server/models/Museum.js" />
       </list>
     </option>
   </component>
@@ -424,7 +426,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -800,24 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/Museum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/actions/museums/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/actions/stations/add.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -870,11 +854,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/stations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24827586">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/actions/museums/add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/Museum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6689655">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

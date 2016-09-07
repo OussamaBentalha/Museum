@@ -5,8 +5,6 @@ module.exports = function(app){
 
     return function(req, res, next){
 
-        Console.log("Request body : " + JSON.stringify(req.body));
-
         var museum = new app.models.Museum({
             name: req.body.name,
             address: req.body.address,
