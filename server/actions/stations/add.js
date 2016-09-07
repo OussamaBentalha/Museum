@@ -11,8 +11,7 @@ module.exports = function(app){
             aspp: req.body.aspp,
             avsp: req.body.avsp,
             assp: req.body.assp,
-            ufr: req.body.ufr,
-
+            ufr: req.body.ufr
         });
 
         station.save(function(err, instance){

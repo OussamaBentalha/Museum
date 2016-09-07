@@ -18,7 +18,8 @@ module.exports = function(app){
             x: req.body.x,
             y: req.body.y,
             note: req.body.note,
-            price: req.body.price
+            price: req.body.price,
+            stationsId: req.body.stationsId
 
         });
 
