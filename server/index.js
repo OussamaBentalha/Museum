@@ -1,6 +1,7 @@
 /**
  * Created by Sam on 06/09/2016.
  */
+require('./global');
 var express = require('express');
 var api = express();
 
