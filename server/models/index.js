@@ -9,5 +9,5 @@ module.exports = function(app){
     app.models = {};
     app.models.User = require('./User')(app);
     app.models.Museum = require('./Museum')(app);
-    //app.models.Comment = require('./Comment')(app);
+    app.models.Station = require('./Station')(app);
 };

@@ -10,19 +10,19 @@ module.exports = function(app){
         app.actions.museums.add
     );
 
-    /*router.get('/',
-        app.actions.users.list
+    router.get('/',
+        app.actions.museums.list
     );
 
     //Recherche par id
     router.get('/:id',
-        app.actions.users.show
+        app.actions.museums.show
     );
 
     router.put('/:id',
         bodyparser,
-        app.actions.users.update
-    );*/
+        app.actions.museums.update
+    );
 
     return router;
 };
