@@ -7,6 +7,10 @@ module.exports = function(app){
             type: String,
             required: false
         },
+        line: {
+            type: String,
+            required: false
+        },
         x: {
             type: Number,
             required: false

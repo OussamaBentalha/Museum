@@ -18,7 +18,6 @@ module.exports = function(app){
             note: req.body.note,
             price: req.body.price,
             stationsId: req.body.stationsId
-
         });
 
         museum.save(function(err, instance){

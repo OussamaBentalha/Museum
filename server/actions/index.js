@@ -6,4 +6,5 @@ module.exports = function(app){
     app.actions.users = require('./users')(app);
     app.actions.museums = require('./museums')(app);
     app.actions.stations = require('./stations')(app);
+    app.actions.comments = require('./comments')(app);
 };

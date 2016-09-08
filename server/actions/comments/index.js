@@ -3,6 +3,6 @@
  */
 module.exports = function(app){
     return {
-        add: require('./add')(app)
+        //add: require('./add')(app)
     };
 };

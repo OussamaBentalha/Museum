@@ -6,7 +6,6 @@ module.exports = function(app){
         add: require('./add')(app),
         list: require('./list')(app),
         update: require('./update')(app),
-        show: require('./show')(app),
-        stations: require('./stations')(app)
+        show: require('./show')(app)
     };
 };

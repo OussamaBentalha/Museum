@@ -50,6 +50,10 @@ module.exports = function(app){
         stationsId: [{
             type: String,
             required: false
+        }],
+        commentsId: [{
+            type: String,
+            required: false
         }]
 
     });
