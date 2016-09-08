@@ -4,6 +4,7 @@
 module.exports = function(app){
     return {
         add: require('./add')(app),
-        list: require('./list')(app)
+        list: require('./list')(app),
+        getByMuseum: require('./getByMuseum')(app)
     };
 };

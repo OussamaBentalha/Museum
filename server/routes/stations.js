@@ -14,5 +14,9 @@ module.exports = function(app){
         app.actions.stations.list
     );
 
+    router.get('/gbm/:id',
+        app.actions.stations.getByMuseum
+    );
+
     return router;
 };
