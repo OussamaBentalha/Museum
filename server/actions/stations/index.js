@@ -5,7 +5,6 @@ module.exports = function(app){
     return {
         add: require('./add')(app),
         list: require('./list')(app),
-        update: require('./update')(app),
-        show: require('./show')(app)
+        getByMuseum: require('./getByMuseum')(app)
     };
 };

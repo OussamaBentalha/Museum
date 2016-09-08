@@ -46,12 +46,15 @@ module.exports = function(app){
         price: {
             type: Number,
             required: false
-        }/*,
-        comments: [{
-            type: app.mongoose.Schema.Types.ObjectId,
-            ref: 'Comment',
+        },
+        stationsId: [{
+            type: String,
             required: false
-        }]*/
+        }],
+        commentsId: [{
+            type: String,
+            required: false
+        }]
 
     });
 
