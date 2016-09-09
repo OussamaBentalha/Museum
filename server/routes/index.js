@@ -5,4 +5,5 @@ module.exports = function(app){
     app.use('/api/users', require('./users')(app));
     app.use('/api/museums', require('./museums')(app));
     app.use('/api/stations', require('./stations')(app));
+    app.use('/api/comments', require('./comments')(app));
 };

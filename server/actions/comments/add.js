@@ -15,7 +15,10 @@ module.exports = function(app){
             if (err)
                 return res.status(500).send(err);
 
-            res.send(instance);
+            var promise = app.models.Museum.update({ _id: req.params.id}, { $addToSet:{commentsId: instance._id }}).exec();
+            promise.then(function(instance) {
+                res.send(instance)
+            });
         });
     }
 };
