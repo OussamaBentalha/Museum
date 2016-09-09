@@ -4,9 +4,9 @@
 module.exports = function(app){
 
     return function(req, res, next){
-        
+
         var station = new app.models.Station({
-            _id: app.mongoose.Schema.ObjectId(req.body.id),
+            _id: req.body.idStation,
             name: req.body.name,
             line: req.body.line,
             x: req.body.x,

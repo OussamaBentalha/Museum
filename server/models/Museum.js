@@ -3,6 +3,10 @@
  */
 module.exports = function(app){
     var MuseumSchema = app.mongoose.Schema({
+        _id: {
+            type: String,
+            required: true
+        },
         name: {
             type: String,
             required: false

@@ -6,7 +6,7 @@ module.exports = function(app){
     return function(req, res, next){
 
         var museum = new app.models.Museum({
-            _id: app.mongoose.Schema.ObjectId(req.body.id),
+            _id: req.body.idMuseum,
             name: req.body.name,
             address: req.body.address,
             postalcode: req.body.postalcode,

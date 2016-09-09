@@ -3,6 +3,10 @@
  */
 module.exports = function(app){
     var StationSchema = app.mongoose.Schema({
+        _id: {
+            type: String,
+            required: true
+        },
         name: {
             type: String,
             required: false
