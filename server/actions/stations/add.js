@@ -5,7 +5,7 @@ module.exports = function(app){
 
     return function(req, res, next){
         var station = new app.models.Station({
-            _id: ObjectId(req.body.id),
+            _id: app.mongoose.Schema.ObjectId(req.body.id),
             name: req.body.name,
             line: req.body.line,
             x: req.body.x,
