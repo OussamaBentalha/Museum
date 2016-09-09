@@ -6,6 +6,7 @@ module.exports = function(app){
     return function(req, res, next){
 
         var museum = new app.models.Museum({
+            _id: ObjectId(req.body.id),
             name: req.body.name,
             address: req.body.address,
             postalcode: req.body.postalcode,
