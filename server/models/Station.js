@@ -8,7 +8,7 @@ module.exports = function(app){
             required: false
         },
         line: {
-            type: String,
+            type: Number,
             required: false
         },
         x: {

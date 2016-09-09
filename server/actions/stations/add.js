@@ -6,6 +6,7 @@ module.exports = function(app){
     return function(req, res, next){
         var station = new app.models.Station({
             name: req.body.name,
+            line: req.body.line,
             x: req.body.x,
             y: req.body.y,
             avpp: req.body.avpp,
